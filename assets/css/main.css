@@ -32,7 +32,7 @@ nav>ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 10%;
+
 }
 nav>ul>a>li{
     font-size: 17px;
@@ -56,24 +56,9 @@ nav>ul>a>li>.svg-inline--fa{
 }
 nav > ul >a> li:hover .svg-inline--fa{
     color: #5143d9;
-
-}
-.selected{
-    width: 10%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav>.selected > select{
-    background: transparent;
-    width: 100px;
-    height: 50%;
-    appearance: none;
-    border: none;
 }
 .accounts{
-    width: 15%;
+    width:250px;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -86,7 +71,9 @@ nav>.selected > select{
     border-radius: 10px;
     width: 80px;
     text-align: center;
-
     cursor: pointer;
     padding: 10px 0;
+}
+.accounts>a:hover{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
