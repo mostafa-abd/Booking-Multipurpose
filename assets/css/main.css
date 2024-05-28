@@ -21,11 +21,11 @@ nav{
     align-items: center;
     padding: 2%;
 }
-nav>img{
+.logo{
     width: 80px;
     height: 80px;
 }
-nav>ul{
+ul{
     height: 100px;
     width: 40%;
     list-style-type: none;
@@ -34,7 +34,7 @@ nav>ul{
     align-items: center;
 
 }
-nav>ul>a>li{
+ul>a>li{
     font-size: 17px;
     font-weight: 700;
     padding: 10px 0;
@@ -44,17 +44,17 @@ nav>ul>a>li{
     color: #0b0a12
 
 }
-nav>ul>a>li:hover {
+ul>a>li:hover {
 color: #5143d9;
 background-color: #edecfb;
 border-radius: 10px;
 }
-nav>ul>a>li>.svg-inline--fa{
+ul>a>li>.svg-inline--fa{
     margin-right: 3px;
     font-size: 15px;
     color: #0b0a12
 }
-nav > ul >a> li:hover .svg-inline--fa{
+ ul >a> li:hover .svg-inline--fa{
     color: #5143d9;
 }
 .accounts{
@@ -76,4 +76,46 @@ nav > ul >a> li:hover .svg-inline--fa{
 }
 .accounts>a:hover{
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.menu>.fa-bars{
+    font-size: 30px;
+    display: none;
+}
+.navmenu{
+    display: none;
+    flex-direction: column;
+    background-color: #bdbbbb;
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    align-items: center;
+    padding: 5vh 0;
+
+}
+.navmenu>ul{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+}
+.navmenu>.accounts{
+    height: 25%;
+}
+.fa-x{
+    position: relative;
+    top: -14px;
+    right: -41%;
+    font-size: 25px;
+}
+@media (max-width:800px){
+    .menu>.fa-bars{
+        display: inline;
+    }
+    nav>ul , nav>.accounts{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+
+
 }
