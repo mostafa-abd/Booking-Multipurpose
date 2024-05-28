@@ -84,7 +84,7 @@ ul>a>li>.svg-inline--fa{
 .navmenu{
     display: none;
     flex-direction: column;
-    background-color: #bdbbbb;
+    background-color: gray;
     width: 70%;
     height: 100vh;
     position: fixed;
