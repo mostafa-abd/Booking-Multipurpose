@@ -1,11 +1,6 @@
-let menu = document.getElementsByClassName("menu")[0];
-let navMenu = document.getElementsByClassName("navmenu")[0];
-let x = document.querySelector(".fa-x");
+let menu = document.getElementsByClassName("menu")[0]
+    navMenu = document.getElementsByClassName("navmenu")[0]
+    x = document.querySelector(".close")
 
-menu.addEventListener("click", () => {
-    navMenu.style.display = "flex";
-});
-
-x.addEventListener("click", () => {
-    navMenu.style.display = "none";
-});
+menu.addEventListener("click" , ()=> navMenu.classList.add("d-f"));
+x.addEventListener("click" , ()=> navMenu.classList.remove("d-f") );

@@ -100,10 +100,17 @@ ul>a>li>.svg-inline--fa{
 .navmenu>.accounts{
     height: 25%;
 }
-.fa-x{
+.d-f{
+    display: flex;
+}
+
+.close{
     position: relative;
     top: -14px;
     right: -41%;
+}
+.fa-x{
+
     font-size: 25px;
 }
 @media (max-width:800px){
