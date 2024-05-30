@@ -17,7 +17,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2%;
-    z-index: 9999999999;
+    z-index: 999999999;
 }
 .logo{
     width: 125px;
@@ -91,6 +91,7 @@ border-radius: 10px;
     position: fixed;
     align-items: center;
     padding: 5vh 0;
+    z-index: 999999999999999999999999;
 
 }
 .navmenu>ul{
@@ -108,12 +109,11 @@ border-radius: 10px;
 .close{
     position: relative;
     top: -14px;
-    right: -41%;
-}
-.fa-x{
-
+    right: -41%;    
     font-size: 25px;
+
 }
+
 @media (max-width:800px){
     .menu>.material-symbols-outlined{
         display: inline;
