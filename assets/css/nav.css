@@ -70,18 +70,15 @@ border-radius: 10px;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 .menu{
-    width: 30px;
-    height: 36px;
     position: fixed;
     top: 25px;
     right: 30px;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    display: none;
 
 }
-.menu>.material-symbols-outlined{
-    font-size: 30px;
-    font-weight: 600;
-    display: none;
-}
+
 .navmenu{
     display: none;
     flex-direction: column;
@@ -115,7 +112,7 @@ border-radius: 10px;
 }
 
 @media (max-width:800px){
-    .menu>.material-symbols-outlined{
+    .menu{
         display: inline;
     }
     nav>ul , nav>.accounts{
