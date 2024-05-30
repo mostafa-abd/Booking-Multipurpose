@@ -1,5 +1,5 @@
-let menu = document.getElementsByClassName("menu")[0]
-    navMenu = document.getElementsByClassName("navmenu")[0]
+let menu = document.querySelector(".menu")
+    navMenu = document.querySelector(".close>.material-symbols-outlined")
     x = document.querySelector(".close")
 
 menu.addEventListener("click" , ()=> navMenu.classList.add("d-f"));
