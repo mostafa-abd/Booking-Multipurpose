@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
+    color: #363539;
 }
 
 a {
@@ -13,8 +14,8 @@ a {
 
 body {
     display: grid;
-    grid-template-rows: 915px 250px 500px;
-    row-gap: 1%;
+    grid-template-rows: 915px 250px 600px 600px 500px;
+    row-gap: 5%;
 }
 
 .sec-1 {
@@ -42,14 +43,17 @@ body {
     justify-content: flex-end;
 }
 
-.sec-1>div>h1 {
+h1 {
     font-size: 95px;
     height: 60%;
 }
 
-.sec-1>div>h3 {
-    font-size: 20px;
+h3{
+    font-size: 30px;
+    font-weight: 500;
     height: 5%;
+    font-family: "Just Another Hand", cursive;
+
 }
 
 .sec-1>div>p {
@@ -135,4 +139,174 @@ body {
     background: #5143d9;
     color: white;
     cursor: pointer;
+}
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sec-3>h1{
+width: 32%;
+height: 15%;
+margin: 0 34%;
+font-size: 50px;
+}
+.sec-3>.destinantions{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-3>.destinantions>.des{
+    width: 400px;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #eeeeee;
+    background-color: white;
+}
+.des>.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 30px 30px 0 0;
+    transition: transform 300ms ease-out;
+
+}
+.des>.image>img:hover{
+    transform: translateZ(10px);
+    filter: brightness(0.7);
+    
+}
+.des>.image{
+height: 80%;
+perspective: 100px;
+overflow: hidden;
+border-radius: 30px 30px 0 0;
+
+}
+.des>.det{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.des>.days{
+    width: 95%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+
+}
+.det>div{
+    font-size: 25px ;
+    font-weight: 700;
+    width: 45%;
+    text-align: center;
+}
+.det>div:hover{
+font-size: 26px;
+transition: all 100ms;
+cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    height: .2%;
+    background-color: #eae8e8;
+}
+.days>span{
+    font-size: 20px;
+    font-weight: 800;
+}
+.days>span , .det>div{
+    color: #363539;
+}
+
+.days>.material-symbols-outlined {
+    font-variation-settings:
+  'FILL' 10,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.sec-4{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+.sec-4>div{
+    width: 28%;
+    background-color: yellow;
+    height: 100%;
+}
+.sec-4>div:first-child{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    align-self: center;
+    margin-left: 1%;
+}
+.sec-4>div:first-child>h1{
+    font-size: 68px;
+    height: 50%;
+    font-weight: 900;
+}
+.sec-4>div:nth-child(2)>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+}
+
+.sec-4>div:first-child>div:last-of-type{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 4%;
+    height: 20%;
+
+}
+.clints{
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.clints>img , .clints>div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid white;
+
+}
+.clints>div{
+    background-color: #002966;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    left: 85px;
+    z-index: 5;
+    padding: 9px 5px;
+}
+.clints>img:first-child{
+z-index: 1;
+}
+.clints>img:nth-child(2){
+    left: 25px;
+z-index: 2;
+}
+.clints>img:nth-child(3){
+    left: 45px;
+
+z-index: 3;
+}
+.clints>img:last-of-type{
+       left: 65px;
+       z-index: 4;
 }
