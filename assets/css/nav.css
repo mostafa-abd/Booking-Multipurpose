@@ -51,12 +51,17 @@ ul>a>li {
     align-items: flex-end;
 }
 
-ul>a>li:hover,
-.active {
-    color: #5143d9;
+li:hover, li:hover span {
+    color: #5143d9 ;
     background-color: #edecfb;
     border-radius: 10px;
 }
+.active , .active span{
+    color: #5143d9 ;
+    background-color: #edecfb;
+    border-radius: 10px;
+}
+
 
 .accounts {
     width: 200px;
