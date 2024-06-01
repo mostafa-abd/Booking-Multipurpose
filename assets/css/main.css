@@ -554,18 +554,18 @@ ul > li > .material-symbols-outlined {
 }
 
 .package > div {
-  box-shadow: 0px 0px 5px #eeeeee;
-  background-color: rgb(255, 0, 0);
-  width: 30%;
+  box-shadow: 0px 0px 10px #d1cdcd;
+  background-color: white;
+  width: 28%;
+  padding-left: 2%;
   height: 200%;
   position: relative;
   bottom: -40%;
-  border-radius: 10%;
+  border-radius: 50px;
 }
 .package > div > .pachage-detail {
   height: 50%;
   width: 100%;
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -573,7 +573,7 @@ ul > li > .material-symbols-outlined {
 }
 .package > div > .pachage-detail > .price {
   height: 20%;
-  background-color: rgb(0, 255, 34);
+
   width: 100%;
   font-size: 20px;
   font-weight: 800;
@@ -587,23 +587,67 @@ b{
     top: -25px;
 }
 .package > div > .pachage-detail > .package-photo {
-  height: 40%;
-  height: 30%;
+
+  height: 35%;
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 100%;
 }
 .package-photo > img {
   border-radius: 100px;
-  width: 50%;
+  width: 60%;
 }
 .package-photo > img:last-child{
-width: 24%;
+width: 28%;
 margin-left: 20px;
 }
 .package > div > .pachage-detail > .tour-package {
-  height: 40%;
-  background-color: rgb(255, 2, 221);
+  height: 35%;
   width: 100%;
+}
+h4{
+  font-size: 40px;
+  height: 40%;
+
+}
+.tour-package >p{
+  font-size: 20px;
+  height: 40%;
+}
+.package>div>.line{
+  width: 90%;
+  height: .5%;
+background-color: #f1f5f6;
+}
+.package>div>ul{
+  width: 100%;
+  height: 35%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.package>div>ul > li > .material-symbols-outlined {
+  background-color: transparent;
+  color: #7200f8;
+  border: 2px solid #7200f8;
+}
+.package>div>ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 58%;
+}
+.package>div>ul > li>span{
+  font-weight: 800;
+}
+.package>div>button{
+  width: 90%;
+  height: 8%;
+  border-radius: 100px;
+border: none;
+outline: none;
+background-color: black;
+color: white;
+font-size: 23px;
+font-weight: 600;
+cursor: pointer;
 }
