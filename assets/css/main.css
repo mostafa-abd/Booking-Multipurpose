@@ -15,7 +15,7 @@ a {
 
 body {
   display: grid;
-  grid-template-rows: 915px 250px 600px 500px 700px 750px 800px 800px;
+  grid-template-rows: 915px 250px 600px 500px 700px 750px 800px 700px;
   row-gap: 5%;
 }
 
@@ -650,4 +650,9 @@ color: white;
 font-size: 23px;
 font-weight: 600;
 cursor: pointer;
+}
+footer{
+  margin-top: 15%;
+  background-image: url("../images/footer-bg.webp");
+  background-repeat: no-repeat;
 }
