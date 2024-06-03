@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 900px 150px 800px;
+    grid-template-rows: 900px 150px 800px 500px;
     row-gap: 4%;
 }
 .sec-1{
@@ -13,8 +13,6 @@ margin-top: 100px;
 .sec-1>img:first-child{
     position: absolute;
     right: -28%;
-
-
 }
 .sec-1>.blur{
     top: 0;
@@ -25,7 +23,6 @@ margin-top: 100px;
     opacity: 0.85;
     position: absolute;
     background-color: #E2F2FF;
-
 }
 .sec-1>div{
 height: 100%;
@@ -45,8 +42,7 @@ justify-content: center;
     flex-direction: column;
 }
 .sec-1>div:last-of-type>img:first-child{
-    width: 50%;
-    
+    width: 50%;   
 }
 .sec-1>div:last-of-type>img:last-child{
     width: 93%;
@@ -63,7 +59,6 @@ h1{
 h1 , h3 {
     padding-left: 5%;
 }
-
 .booking{
     width: 104%;
     margin: 0 0 0 2%;
@@ -75,8 +70,7 @@ h1 , h3 {
     background: white;
     box-shadow: 0px 0px 5px #ddd7d7;
     height: 28%;
-  }
-  
+  }  
 .booking > .details {
     height: 40%;
     width: 95%;
@@ -84,7 +78,6 @@ h1 , h3 {
     justify-content: space-evenly;
     align-items: center;
   }
-  
   .booking > .details > div {
     width: 100%;
     height: 100%;
@@ -94,7 +87,6 @@ h1 , h3 {
     flex-wrap: wrap;
     position: relative;
   }
-  
   .booking > .details > div > fieldset {
     background-color: #f5f5f6;
     width: 49%;
@@ -108,7 +100,6 @@ h1 , h3 {
     justify-content: center;
     margin-bottom: 1%;
   }
-  
   .booking > .details > div > fieldset > .material-symbols-outlined ,   input::placeholder{
     color:gray;
     font-weight: 500;
@@ -122,8 +113,6 @@ h1 , h3 {
   input::placeholder{
     font-size: 20px
   }
-  
-  
   .details input {
     background-color: #f5f5f6;
     width: 100%;
@@ -134,7 +123,6 @@ h1 , h3 {
     border: none;
     padding-left: 5%;
   }
-  
   .booking > button {
     width: 170px;
     height: 50px;
@@ -149,12 +137,81 @@ h1 , h3 {
     background: #5143d9;
     color: white;
     cursor: pointer;
-  }
-  
+  } 
   .booking> button > .material-symbols-outlined {
     color: #eeeeee;
   }
-
   .sec-2{
-    background-color: red;
+    padding-left: 3%;
   }
+  h2{
+    font-size: 30px;
+  }
+  .partner{
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+ .sec-3{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .sec-3>h2{
+  height: 10%;
+  font-size: 40px;
+ }
+ .sec-3>div{
+  height: 80%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3 , 30%);
+  grid-template-rows: repeat(4, 25%);
+  gap: 2%;
+justify-content: space-evenly;
+ }
+ .sec-3>div>.des{
+display: flex;
+justify-content: space-between;
+box-shadow: 0px 0px 5px #c8c3c3;
+background-color: white;
+border-radius: 10px;
+ }
+ .des>img{
+width: 180px;
+height: 100%;
+border-radius: 10px 0 0 10px;
+
+ }
+ .des>.des-det{
+  width: 75%;
+  height: 100%;
+  display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    justify-content: space-evenly;
+
+ }
+ .des-city{
+  font-size: 25px;
+  font-weight: 600;
+  height: 20%;
+ }
+ .des-country{
+    font-size: 14px;
+    height: 30%;
+ }
+ .des-country ,.trip ,.sign {
+  color: #767676;
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 2px;
+
+ }
+
+ .price{
+  color: #1d1d1d;
+  font-size: 20px;
+  font-weight: 600;
+ }
