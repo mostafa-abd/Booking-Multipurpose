@@ -1,3 +1,4 @@
+
 body{
     display: grid;
     grid-template-rows: 900px 150px 700px 700px;
@@ -50,6 +51,9 @@ justify-content: center;
 h3{
     font-size: 25px;
     height: 10%;
+    font-family: "Kings", cursive;
+    text-transform: uppercase;
+
 }
 h1{
     font-size: 90px;
@@ -218,5 +222,81 @@ border-radius: 10px 0 0 10px;
   margin-top: 0 !important;
  }
  .sec-4{
-  background-color: red;
+  background-color: #f3f8fc;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+ }
+ .sec-4>div{
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+ }
+ .sec-4>img{
+  height: 100%;
+    position: absolute;
+    left: 55%;
+ }
+ .desc-content{
+  width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    justify-content: flex-end;
+ }
+ .desc-content>h3{
+  color: #4400e7;
+  font-weight: 400;
+  padding-left: 0;
+  height: 15%;
+  font-size: 20px;
+  font-family: "Kings", cursive;
+
+ }
+ .desc-content>h1{
+  font-weight: 900;
+  font-size: 60px;
+  height: 25%;
+  padding-left: 0;
+ }
+ .desc-content>p{
+  font-size: 20px;
+  width: 72%;
+height: 25%;
+ }
+ .desc-content>button{
+  width: 38%;
+  padding: 3% 10%;
+  font-size: 20px;
+  border-radius: 50px;
+background-color: #5b00f0;
+color: white;
+font-weight: 700;
+border: none;
+outline: none;
+ }
+.sec-4>div>b{
+  display: flex;
+  position: absolute;
+  left: 39%;
+  bottom: 2%;
+  width: 50%;
+
+ }
+ .sec-4>div>b>div{
+  display: flex;
+  flex-direction: column;
+font-weight: 900;
+font-size: 130px;
+
+ }
+ .sec-4>div>b>span{
+
+  width: 75%;
+  font-size: 280px;
+ }
+ .sec-4>div>b>div>span:last-child ,  .sec-4>div>b>span{
+  color:#4400e7 ;
  }
