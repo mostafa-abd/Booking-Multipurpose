@@ -79,10 +79,11 @@ li:hover, li:hover span {
     color: #5143d9;
     background-color: #edecfb;
     border-radius: 10px;
-    width: 80px;
+    width: 160px;
     text-align: center;
     cursor: pointer;
-    padding: 10px 0;
+    padding: 15px 0;
+    font-weight: 600;
 }
 
 .accounts>a:hover {
