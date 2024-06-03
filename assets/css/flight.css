@@ -1,0 +1,182 @@
+body{
+    display: grid;
+    grid-template-rows: 900px 700px 800px;
+    row-gap: 4%;
+}
+.sec-1{
+position: relative;
+overflow: hidden;
+display: flex;
+align-items: center;
+margin-top: 100px;
+}
+.sec-1>img:first-child{
+    position: absolute;
+    right: -28%;
+
+
+}
+.sec-1>.blur{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    position: absolute;
+    background-color: #E2F2FF;
+
+}
+.sec-1>div{
+height: 100%;
+z-index: 5;
+}
+.sec-1>div:first-of-type{
+width: 60%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.sec-1>div:last-of-type{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sec-1>div:last-of-type>img:first-child{
+    width: 50%;
+    
+}
+.sec-1>div:last-of-type>img:last-child{
+    width: 93%;
+}
+h3{
+    font-size: 25px;
+    height: 10%;
+}
+h1{
+    font-size: 90px;
+    height: 40%;
+    font-weight: 800;
+}
+h1 , h3 {
+    padding-left: 5%;
+}
+
+.booking{
+    width: 104%;
+    margin: 0 0 0 2%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 0px 5px #ddd7d7;
+    height: 28%;
+  }
+  
+.booking > .details {
+    height: 40%;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .booking > .details > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .booking > .details > div > fieldset {
+    background-color: #f5f5f6;
+    width: 49%;
+    border: 1px solid #e6e6e6;
+    height: 55px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+  }
+  
+  .booking > .details > div > fieldset > .material-symbols-outlined ,   input::placeholder{
+    color:gray;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    
+  }
+  .booking > .details > div > fieldset:nth-of-type(2) > .material-symbols-outlined {
+    margin-left: 25px;
+  }
+  input::placeholder{
+    font-size: 20px
+  }
+  
+  
+  .details input {
+    background-color: #f5f5f6;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    padding-left: 5%;
+  }
+  
+  .booking > button {
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #5143d9;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .booking> button > .material-symbols-outlined {
+    color: #eeeeee;
+  }
+ 
+  .booking > .details > div >  fieldset:first-child {
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+
+  }
+  .booking > .details > div > fieldset:nth-of-type(2){
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+
+  }
+
+  .sec-2{
+    background-color: red;
+  }
+  #flight-details>.material-symbols-outlined{
+    position: absolute;
+    z-index: 99;
+    top: 10%;
+    right: 48%;
+    color: #3366cc;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid #3866D1;
+    cursor: pointer;
+  }
