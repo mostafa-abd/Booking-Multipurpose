@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 900px 700px 800px;
+    grid-template-rows: 900px 150px 800px;
     row-gap: 4%;
 }
 .sec-1{
@@ -154,29 +154,7 @@ h1 , h3 {
   .booking> button > .material-symbols-outlined {
     color: #eeeeee;
   }
- 
-  .booking > .details > div >  fieldset:first-child {
-    width: 50%;
-    border-radius: 10px 0 0 10px;
-
-  }
-  .booking > .details > div > fieldset:nth-of-type(2){
-    width: 50%;
-    border-radius: 0 10px 10px 0;
-
-  }
 
   .sec-2{
     background-color: red;
-  }
-  #flight-details>.material-symbols-outlined{
-    position: absolute;
-    z-index: 99;
-    top: 10%;
-    right: 48%;
-    color: #3366cc;
-    font-size: 30px;
-    border-radius: 50%;
-    border: 2px solid #3866D1;
-    cursor: pointer;
   }
