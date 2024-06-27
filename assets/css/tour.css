@@ -1,6 +1,7 @@
 body{
     display: grid;
-    grid-template-rows: 610px;
+    grid-template-rows: 610px 450px;
+    row-gap: 5%;
 }
 .sec-1{
 background-image: url("../images/rc-hero.jpg");
@@ -90,4 +91,64 @@ align-items: center;
   } 
   .booking> button > .material-symbols-outlined {
     color: #eeeeee;
+  }
+  .sec-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .cars{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .car{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+  .car>img{
+    width: 100%;
+    height: 82%;
+  }
+  .car>div{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .car>div>div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .car h3 {
+    font-size: 20px;
+
+  }
+  .car button{
+    width: 107px;
+    height: 37px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color:#1393cd ;
+
+  }
+  .car>div>div>div{
+    font-size: 14px;
+    color: #858585;
   }
