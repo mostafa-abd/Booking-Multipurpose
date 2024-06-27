@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 610px 450px;
+    grid-template-rows: 610px 500px 300px;
     row-gap: 5%;
 }
 .sec-1{
@@ -57,8 +57,7 @@ align-items: center;
     color:gray;
     font-weight: 500;
     font-size: 1.8rem;
-    margin-left: 10px;
-    
+    margin-left: 10px; 
   }
 
   input::placeholder{
@@ -106,7 +105,6 @@ align-items: center;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
   }
   .car{
     width: 370px;
@@ -135,7 +133,6 @@ align-items: center;
   }
   .car h3 {
     font-size: 20px;
-
   }
   .car button{
     width: 107px;
@@ -146,9 +143,64 @@ align-items: center;
     color: white;
     font-weight: bold;
     background-color:#1393cd ;
-
   }
   .car>div>div>div{
     font-size: 14px;
     color: #858585;
+  }
+  .sec-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+  }
+  .sec-3>h2{
+font-size: 28px;
+  }
+  .Sanitized{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .Sanitized>div{
+    width: 21%;
+    height: 61%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    border: 1px solid #1393cd;
+  }
+  .Sanitized>div>img{
+    position: absolute;
+    top: -46px;
+    left: 36%;
+    width: 80px;
+    height: 80px;
+    background-color: #f1f9ff;
+    padding: 15px;
+    border-radius: 50px;
+    padding-left: 15px;
+  }
+  .Sanitized>div>div{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    height: 80px;
+    margin: 0 auto;
+    width: 65%;
+
+  }
+  .sec-2 >h3 {
+    margin-top: 60px;
+    background: #1393cd;
+    color: white;
+    padding: 1%;
+    border-radius: 50px;
+  }
+  footer{
+    margin-top: 0 !important;
   }
