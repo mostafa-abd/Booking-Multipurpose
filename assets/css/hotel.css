@@ -1,0 +1,8 @@
+body{
+    display: grid;
+    grid-template-rows: 650px;
+}
+.sec-1{
+    background-image: url("../images/hotel_room_2-wallpaper-1280x720.jpg");
+    background-repeat: no-repeat;
+}
