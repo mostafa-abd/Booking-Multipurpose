@@ -125,7 +125,7 @@ height: 40px;
     height: 460px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px #ddd7d7;
-
+    position: relative;
   }
   .room span{
     color: #5a5959;
@@ -185,3 +185,33 @@ height: 40px;
     font-size: 25px;
     color: #212121;
   }
+  .star-price{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 38%;
+    right: 0;   
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+.star-price >.price{
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+  .star-price .material-symbols-outlined {
+    text-align: right;
+    color: #ffc12b;
+    font-size: 15px;
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.stars{
+  text-align: right;
+  margin-right: 15px;
+}
