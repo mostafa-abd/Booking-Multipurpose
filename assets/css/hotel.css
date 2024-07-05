@@ -1,8 +1,187 @@
 body{
     display: grid;
-    grid-template-rows: 650px;
+    grid-template-rows: 610px 150px 1200px;
+    row-gap: 10%;
 }
 .sec-1{
-    background-image: url("../images/hotel_room_2-wallpaper-1280x720.jpg");
+    background-image: url("../images/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -125px;
+    display: flex;
+    align-items: flex-end;
 }
+.booking{
+    width: 80%;
+    margin: 0 0 1% 9%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 0px 5px #ddd7d7;
+    height: 15%;
+  }  
+.booking > .details {
+    height: 40%;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .booking > .details > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .booking > .details > div > fieldset {
+    background-color: #f5f5f6;
+    width: 23%;
+    border: 1px solid #e6e6e6;
+    height: 55px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+  }
+  .booking > .details > div > fieldset > .material-symbols-outlined ,   input::placeholder{
+    color:gray;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-left: 10px; 
+  }
+  input::placeholder{
+    font-size: 18px
+  }
+  .details input {
+    background-color: #f5f5f6;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    padding-left: 5%;
+  }
+  .booking  button {
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #5143d9;
+    color: white;
+    margin-bottom: 1%;
+    cursor: pointer;
+  } 
+  .booking button > .material-symbols-outlined {
+    color: #eeeeee;
+  }
+  .sec-2{
+    padding-left: 3%;
+  }
+  h2{
+    font-size: 33px;
+  }
+  .partner{
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+  .sec-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sec-3 h3{
+    font-size: 40px;
+height: 40px;
+  }
+  .rooms{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+  .room{
+    width: 356px;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #ddd7d7;
+
+  }
+  .room span{
+    color: #5a5959;
+  }
+  .sec-3>h3:last-child{
+    background: #1393cd;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    height: fit-content;
+  }
+  .room>img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+  }
+  .room-details{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+
+  }
+  .location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 61%;
+  }
+  .room-details .details{
+    width: 100%;
+    padding-right: 5%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .room-details .details>div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .details>div>div{
+    display: flex;
+    align-items: center;
+  }
+  .details>div>div>span:last-child{
+    margin-left: 5px;
+  }
+  h4{
+    font-size: 25px;
+    color: #212121;
+  }
