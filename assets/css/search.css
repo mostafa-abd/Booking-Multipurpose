@@ -3,7 +3,7 @@
     height: fit-content;
     position: relative;
     top: 150px;
-    background-color: red;
+
     display: grid;
     grid-template-columns: repeat(2 , 200px) 60px repeat(4 , auto) 60px;
     grid-template-rows: 75px  50px repeat(4 , auto);
@@ -22,6 +22,8 @@
     border-radius: 40px 0 0 40px;
     border: none;
     outline: none;
+    box-shadow: 0px 0px 3px #ddd7d7;
+
 }
 .search span{
     font-size: 33px;
@@ -30,6 +32,8 @@
     height: 60%;
     border-radius: 0 40px 40px 0;
     padding: 5px;
+    box-shadow: 0px 0px 3px #ddd7d7;
+
 }
 .filter-props{
     grid-area: 2 / 1 / 7 / 3;
@@ -37,10 +41,7 @@
     padding: 0 10%;
 
 }
-section{
-    background-color: rgb(247, 247, 247);
-    padding: 0 10%;
-}
+
 .filter-props >section>div{
     font-size: 18px;
     border-bottom: 1px dashed #D5D5D6;
@@ -48,6 +49,8 @@ section{
 .filter-props section:not(:first-child){
     margin-bottom: 30px;
     border-radius: 12px;
+    background-color: rgb(247, 247, 247);
+    padding: 0 10%;
 }
 .filter-props section>div:first-child{
     display: flex;
@@ -65,7 +68,6 @@ section{
     height: 80px;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px dashed #D5D5D6;
     background-color: transparent;
 }
 .sec-1 h2{
@@ -78,6 +80,9 @@ article{
     display: flex;
     align-items: center;
     border-bottom: 1px dashed #D5D5D6;
+}
+article:last-child{
+    border: none;
 }
 input[type="checkbox"]{
     margin-right: 10px;
