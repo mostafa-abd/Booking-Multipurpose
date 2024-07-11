@@ -34,7 +34,7 @@
 }
 .filter-props{
     grid-area: 2 / 1 / 7 / 3;
-    background-color: rgb(43, 255, 0);
+
     padding: 0 10%;
 
 }
@@ -172,11 +172,3 @@ input[type="checkbox"]{
     border-right: 5px solid transparent;
     border-top: 10px solid #6700f4;
 }
-
-/* .labels {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-} */
