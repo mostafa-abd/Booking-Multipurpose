@@ -5,7 +5,7 @@
     top: 150px;
 
     display: grid;
-    grid-template-columns: repeat(2 , 200px) 60px repeat(4 , auto) 60px;
+    grid-template-columns: repeat(2 , 200px) 60px repeat(4 , 1fr) 60px;
     grid-template-rows: 75px  50px repeat(4 , auto);
     padding: 0;
 }
@@ -166,8 +166,105 @@ input[type="checkbox"]{
     border-top: 10px solid #6700f4;
 }
 .result{
-    grid-area:3 / 4 / 7 / span 4;
-    background-color: rgb(255, 0, 221);
+    grid-area:3 / 4 / auto / span 4;
+    display: grid;
+    grid-template-columns: repeat(2 , 48%);
+    gap: 50px;
+}
+
+  .search-result{
+    width: 356px;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #ddd7d7;
+    position: relative;
+    background-color: white;
+  }
+  .search-result span{
+    color: #5a5959;
+  }
+  
+  .search-result>img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+  }
+  .search-result-details{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 15px;
+  }
+  .location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 61%;
+  }
+  .search-result-details .details{
+    width: 100%;
+    padding-right: 5%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-result-details .details>div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .details>div>div{
+    display: flex;
+    align-items: center;
+  }
+  .details>div>div>span:last-child{
+    margin-left: 5px;
+  }
+  h4{
+    font-size: 25px;
+    color: #212121;
+  }
+  .star-price{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 38%;
+    right: 0;   
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+.star-price >.price{
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+  .star-price .material-symbols-outlined {
+    text-align: right;
+    color: #ffc12b;
+    font-size: 15px;
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.stars{
+  text-align: right;
+  margin-right: 15px;
+}
+input::placeholder{
+    color: #5a5959;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
 }
 footer{
     margin-top: 20%;
